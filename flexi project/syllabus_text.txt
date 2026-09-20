@@ -1,0 +1,181 @@
+﻿--- PAGE 1 ---
+SYMBIOSIS INTERNATIONAL (DEEMED UNIVERSITY)
+(Established under section 3 of the UGC Act 1956)
+Re - accredited by NAAC with ΓÇÿAΓÇÖ Grade
+Founder: Prof. Dr. S. B. Mujumdar, M.Sc.,Ph.D. (Awarded Padma Bhushan and Padma Shri by President of India)
+____________________________________________________________________________________
+Course Name: Agentic AI & Automation
+Course Code:
+Faculty: Engineering
+Course Credit: 3
+Course Level: 3
+Sub-Committee (Specialization): Computer Science
+Course Objectives:
+∩é╖ To introduce students to the concept of AI agents and the OpenAI Agents SDK for
+building single-agent and multi-agent systems.
+∩é╖ To enable students to design and coordinate multi-agent workflows with role
+assignment, handoffs, and guardrails.
+∩é╖ To develop practical skill in agentic frameworks such as AutoGen, LangGraph,
+CrewAI, and MCP.
+∩é╖ To build automation solutions using n8n with external services such as Gmail, Google
+Sheets, and Google Calendar.
+∩é╖ To apply Python-based data analysis and classical ML models inside agentic
+workflows for predictive and decision-support tasks.
+Pre-requisites:
+∩é╖ Basic programming in Python.
+∩é╖ Familiarity with notebooks, APIs, JSON, and package installation.
+∩é╖ Introductory understanding of machine learning concepts.
+∩é╖ Very basic exposure to LLMs / prompt-based interaction.
+Course Outline (Theory and Lab):
+Contact
+Unit. Actual
+Topic Hours
+No. Teaching Hours
+Equivalence
+Introduction to AI Agent, Environment setup & Anaconda
+download for Mac, Windows, Linux, Build and run a first
+simple AI agent without tools or memory, and monitor its
+activity using traces on the OpenAI API platform, Add SQLite-
+based session storage to enable persistent memory and manage
+agent state, Apply memory-enabled agents to real use cases for
+multi-turn queries, Extend agents by integrating OpenAI tools
+1 9 9
+(e.g., Code Interpreter) and combining real-time search,
+memory, and reasoning into a complete workflow, Leverage
+the OpenAI Agents SDK to build an AI agent with existing
+OpenAI tools such as code interpreter, Build AI Agents that
+can leverage external tools that integrate Tavily web search for
+structured, real-time search results, Wrap the search function
+as a FunctionTool for use within the OpenAI Agents SDK
+AI Agent Team Structure, Manager Function Responsibilities,
+Design multi-agent pipelines for advertising campaigns,
+2 9 9
+involving role-specific agents like Creative Director and
+Copywriter, Design a multi-agent research assistant that can
+--- PAGE 2 ---
+triage user queries, delegate tasks to specialist agents, and
+generate an executive-ready report, Develop a library of
+specialist agents (e.g., Planner, Writer, Fundamentals Analyst,
+Search Agent) and coordinate their interactions, Implement
+guardrails for boundaries (e.g., politics), Build handoff
+mechanisms (e.g., Planner ΓåÆ Writer),Agent-as-Tool-Design
+Basic Concept: Multi-Model AI Agents in AutoGen, Building
+Multiple AI Agents with Different LLMs, Develop team of AI
+Agents for Marketing Strategy, Make the AI agents discuss
+ideas using AutoGen's chat, Multi-Model AI Agent in Autogen
+3 9 9
+with Gemini & OpenAIΓÇÖs GPT-4o, Core Components of
+LangGraph, Agentic workflow in LangGraph, Configure API
+key, Connect to UI (Gradio), Visualize Agentic workflow,
+Define Custom Tool
+Core components of CrewAI, Build Advanced Agentic AI
+Workflows Using CrewAI, Custom Tool: Python code (for
+data analysis and modelling), Train, linear regression, random
+forest, & XG-Boost models to predict sales using Scikit-Learn
+(Classical ML), Assemble a crew of AI Agents to perform the
+regression analysis to perform predictive analytics, Load,
+inspect, and understand the structure of the dataset (Classical
+ML), Handle missing values using appropriate imputation
+techniques, Perform Exploratory Data Analysis (EDA) and
+preprocess data, including cleaning and encoding categorical
+4 features, Evaluate and compare model performance using 9 9
+metrics like R┬▓, MAE, and MSE, Components of MCP,
+Transform Gradio Applications into an MCP-compatible tool
+by configuring Gradio parameters, Build an AI Agent using
+OpenAI Agents SDK with external MCP tools, Build and
+expose a new tool as an MCP service using Gradio, Deploy
+Gradio apps as MCP servers, Write Python code to act as an
+MCP client by discovering tool capabilities through manifests
+and remotely executing actions via HTTP requests, Simulate
+an AI assistant within the notebook that decides when and how
+to interact with external MCP tools.
+Build Agentic Workflows Using n8n., Build a simple agent
+that takes user inputs, summarizes them using an AI model, and
+outputs the results, Integrate n8n with Google Sheets:
+Automate the process of sending AI-generated summaries and
+structured outputs into Google Sheets, Implement structured
+output parsing: Format AI responses as structured JSON, parse
+them within n8n, and store the results systematically, Build an
+5 agent capable of checking calendar events and creating new 9 9
+events based on user commands, Set up Gmail to trigger
+workflows that classify emails and automate further actions
+like calendar bookings, Combine Gmail triggers, email
+classification, Google Sheets tagging, & Google Calendar
+event creation into an automation process, Learn how to
+visually connect services like Gmail, Google Sheets, OpenAI,
+and your own APIs to automate tasks.
+Total 45 45
+--- PAGE 3 ---
+Books Recommended:
+∩é╖ Hands-On Large Language Models ΓÇö 2024 ΓÇö Jay Alammar, Maarten Grootendorst
+ΓÇö OΓÇÖReilly Media, Inc. (https://www.oreilly.com/library/view/hands-on-large-
+language/9781098150952/)
+∩é╖ Prompt Engineering for Generative AI ΓÇö 2024 ΓÇö James Phoenix, Mike Taylor ΓÇö
+OΓÇÖReilly Media, Inc. (https://www.oreilly.com/library/view/prompt-engineering-
+for/9781098153427/)
+∩é╖ AI Engineering ΓÇö 2024 ΓÇö Chip Huyen ΓÇö OΓÇÖReilly Media, Inc.
+(https://www.oreilly.com/library/view/ai-engineering/9781098166298/)
+∩é╖ Designing Machine Learning Systems ΓÇö 2022 ΓÇö Chip Huyen ΓÇö OΓÇÖReilly Media, Inc.
+(https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+Suggested Pedagogy:
+∩é╖ Short concept lectures followed by live demonstrations.
+∩é╖ Lab-based coding sessions for each framework and unit.
+∩é╖ Guided notebook exercises for single-agent and multi-agent workflows.
+∩é╖ Case-based learning using real automation scenarios.
+∩é╖ Mini-projects and a capstone-style integration task across tools and frameworks.
+Evaluation/Assessment Methods:
+∩é╖ Quizzes on concepts and framework architecture.
+∩é╖ Laboratory assignments for each unit.
+∩é╖ Coding exercises on agents, tools, and automations.
+∩é╖ One or more mini-projects integrating multiple frameworks.
+∩é╖ Final project/demo with viva or presentation.
+Course Outcomes (CO):
+CO1: Implement single AI agents using the OpenAI Agents SDK with memory, tracing,
+and tool integration features for handling user tasks.
+CO2: Develop multi-agent workflows with role-based agents, task delegation, guardrails,
+and handoff mechanisms using the OpenAI Agents SDK.
+CO3: Build agentic applications using AutoGen and LangGraph frameworks with multi-
+model agents, custom tools, and workflow visualization.
+CO4: Implement AI workflows using CrewAI and MCP by integrating predictive analytics,
+external tools, and MCP-compatible services.
+CO5: Create automation workflows in n8n by integrating AI services with Gmail, Google
+Sheets, and Google Calendar for task automation and structured data handling.
+Expert (Internal/External):
+Dr. Shreyas R. Hole
+SIT, Nagpur
+Benchmarking:
+∩é╖ CS294/194-196 Large Language Model Agents ΓÇö University of California,
+Berkeley ΓÇö https://rdi.berkeley.edu/llm-agents/f24
+∩é╖ 15-482 Autonomous Agents ΓÇö Carnegie Mellon University ΓÇö
+--- PAGE 4 ---
+https://cs.cmu.edu/~15482
+∩é╖ Agentic AI Strategies and Applications ΓÇö Indiana University Kelley School of
+Business ΓÇö https://kelley.iu.edu/executive-education/professional-development/ai-
+and-tech/ai-agents/index.html
+∩é╖ AI Agents PG Program for Business Applications ΓÇö The University of Texas at
+Austin, McCombs School of Business ΓÇö
+https://onlineexeced.mccombs.utexas.edu/ai-agents-for-business-applications-online-
+course
+Select Sustainable Development Goal (SDG) of the
+Answer (mention the SDG of the course)
+Course: (mention in the next column)
+ΓÿÉ No poverty (SDG 1)
+ΓÿÉ Zero hunger (SDG 2)
+ΓÿÉ Good health and well-being (SDG 3)
+ΓÿÉ Quality education (SDG 4)
+ΓÿÉ Gender equality (SDG 5)
+ΓÿÉ Clean water and sanitation (SDG 6)
+SDG 4: Quality Education
+ΓÿÉ Affordable and clean energy (SDG 7)
+ΓÿÉ Decent work and economic growth (SDG 8) SDG 8: Decent Work and Economic
+ΓÿÉ Industry, innovation and infrastructure (SDG 9) Growth
+ΓÿÉ Reduced inequalities (SDG 10)
+SDG 9: Industry, Innovation and
+ΓÿÉ Sustainable cities and communities (SDG 11)
+Infrastructure
+ΓÿÉ Responsible consumption and production (SDG 12)
+ΓÿÉ Climate action (SDG 13)
+ΓÿÉ Life below water (SDG 14)
+ΓÿÉ Life on land (SDG 15)
+ΓÿÉ Peace, justice, and strong institutions (SDG 16)
+ΓÿÉ Partnerships for the goals (SDG 17)
